@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Data Visualisation Assignment" />
+    <meta name="keywords" content="HTML, CSS, JS, D3" />
+    <meta name="author" content="Leon Nguyen, Neel Patel" />
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-5.1.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/linechart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <title>Line Chart for Syrian Migration Crisis</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark p-0 container-fluid d-flex justify-content-center align-items-center">
+        <!-- Links -->
+        <ul class="navbar-nav d-flex flex-row justify-content-center flex-fill">
+            <li class="nav-item w-25 text-center">
+                <a class="nav-link text-light" href="index.html">Home</a>
+            </li>
+            <li class="nav-item w-25 text-center">
+                <a class="nav-link active bg-info text-light" aria-current="page" href="#">Line Chart</a>
+            </li>
+            <li class="nav-item w-25 text-center">
+                <a class="nav-link text-light" href="choropleth.html">Choropleth Map</a>
+            </li>
+            <li class="nav-item w-25 text-center">
+                <a class="nav-link text-light" href="pyramid.html">Pyramid Chart</a>
+            </li>
+        </ul>
+        <!-- Links -->
+    </nav>
+    <!-- Navbar -->
+
+
+    <header class="bg-success sshadow-lg p-3 mb-5 rounded text-center">
+        <h1 class="text-light text-center">
+            Number of people leave Syria for migration from 2012 to 2022
+        </h1>
+    </header>
+
+    <div class="container">
+        <p id="chart"></p>
+        <figcaption>Data sourced from: <i><a href="https://www.unhcr.org/refugee-statistics/download/?url=wDqS5e" target="_blank">United Nations High Commissioner for Refugees</a></i></figcaption>
+    </div>
+
+        <footer class="bg-dark text-light">
+            <!-- Grid container -->
+            <div class="container-fluid">
+                <!--Grid row-->
+                <div class="row p-2">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 align-middle">
+                        <p class="text-end mb-0">
+                            COS30045 Data Visualisation
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 align-middle">
+                        <p class="text-start mb-0">
+                            Leon Nguyen, Neel Patel
+                        </p>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+        </footer>
+
+</body>
+
+</html>
